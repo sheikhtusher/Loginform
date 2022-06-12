@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.registration {
+    background-image: url(../images/1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.login {
+
+    width: 70%;
+
+    height: 100vh;
+
+   
+
+    border-radius: 10px;
+
+    display: flex;
+
+    margin: auto;
+}
+
+.left {
+
+    width: 50%;
+
+    height: 100vh;
+}
+
+.left img {
+
+    width: 100%;
+
+    height: 100vh;
+
+    border-radius: 25px;
+}
+
+.right {
+
+width: 50%;
+
+height: 100vh;
+
+padding-left: 60px;
+
+margin: auto;
+}
+
+.right h2 {
+    text-align: center;
+    padding-top: 65px;
+    padding-bottom: 41px;
+    font-size: 30px;
+}
+
+.right form {
+    width: 90%;
+}
+
+.right form span {
+    display: block;
+    width: 93%;
+    height: 1px;
+    background-color: #ffffff;
+    margin-bottom: 22px;
+}
+
+.right form input {
+    padding: 14px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 21px;
+    width: 90%;
+    font-size: 14px;
+}
+
+.submitpart {
+    margin: auto;
+    border: none;
+    border-radius: 20px;
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+}
+
+.submitpart input {
+    background-color: #0051ff;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.button1 {
+    width: 100%;
+    margin-top: 21px;
+    position: relative;
+}
+
+.button1 button {
+    width: 85%;
+    border-radius: 21px;
+    background-color: #f44336;
+    color: #fff;
+    height: 43px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.icon1 {
+    position: absolute;
+    left: 16%;
+    top: 31%;
+    transform: translate(-16%, 0%);
+    color: #fff;
+}
+
+.button2 {
+    width: 100%;
+    margin-top: 21px;
+    position: relative;
+}
+
+
+.button2 button {
+    width: 85%;
+    border-radius: 21px;
+    background-color: #3662f4;
+    color: #fff;
+    height: 43px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.icon2 {
+    position: absolute;
+    left: 16%;
+    top: 31%;
+    transform: translate(-16%, 0%);
+    color: #fff;
+}
